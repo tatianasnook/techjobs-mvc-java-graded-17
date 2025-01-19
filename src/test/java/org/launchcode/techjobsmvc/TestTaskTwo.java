@@ -60,7 +60,6 @@ public class TestTaskTwo {
                 .andExpect(xpath("//table[contains(@class, 'job-listing')][1]/tr/td[contains(text(), 'Web - Front End')]").exists())
                 .andExpect(xpath("//table[contains(@class, 'job-listing')][1]/tr/td[contains(text(), 'Ruby')]").exists());
     }
-//.andExpect(xpath("//table[contains(@class, 'job-listing')][1]/tr[td[contains(text(), 'ID')]]/td[contains(text(), '3')]").exists())
     /*
      * Verifies that there are exactly 3 Ruby jobs listed
      * */
